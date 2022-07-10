@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash -e
-# Copyright ©2018 by Hax4Us. All rights reserved.  🌎 🌍 🌏 🌐 🗺
+# Copyright ©2018 by trhacknon . All rights reserved.  🌎 🌍 🌏 🌐 🗺
 #
-# https://hax4us.com
+# http://tkndevsec.ml
 ################################################################################
 
 # colors
@@ -216,7 +216,7 @@ resolvconf
 finalwork() {
 	[ -e $HOME/finaltouchup.sh ] && rm $HOME/finaltouchup.sh
 	echo
-	axel -a https://github.com/Hax4us/Nethunter-In-Termux/raw/master/finaltouchup.sh
+	axel -a https://github.com/trhacknon/Nethunter-In-Termux/raw/master/finaltouchup.sh
 	DESTINATION=$DESTINATION SETARCH=$SETARCH bash $HOME/finaltouchup.sh
 } 
 finalwork
@@ -225,8 +225,8 @@ printline
 printf "\n${yellow} Now you can enjoy Kali Nethuter in your Termux :)\n Don't forget to like my hard work for termux and many other things\n"
 printline
 printline
-printf "\n${blue} [*] My official email:${yellow}		lkpandey950@gmail.com\n"
-printf "$blue [*] My website:${yellow}		https://hax4us.com\n"
-printf "$blue [*] My YouTube channel:${yellow}	https://youtube.com/hax4us\n"
+printf "\n${blue} [*] My official email:${yellow}		jeremydiliotti@gmail.com\n"
+printf "$blue [*] My website:${yellow}		http://tkndevsec.ml\n"
+printf "$blue [*] My YouTube channel:${yellow}	https://youtube.com/\n"
 printline
 printf "$reset"
